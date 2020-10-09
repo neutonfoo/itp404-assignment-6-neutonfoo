@@ -1,1 +1,1 @@
-web: cd a6-api && npm start
+web: node a6-api server.js
