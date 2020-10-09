@@ -1,0 +1,7 @@
+{
+  "name": "a6-api",
+  "version": "1.0.0",
+  "scripts": {
+    "postinstall": "npm install --prefix a6-api"
+  }
+}
