@@ -1,1 +1,1 @@
-web: cd a6-api && npm start
+web: npm start --prefix a6-api
