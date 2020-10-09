@@ -1,0 +1,1 @@
+web: cd a6-api && npm start
