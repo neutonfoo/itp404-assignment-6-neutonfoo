@@ -1,9 +1,9 @@
 [[redirects]]
-    from = "/api/*"
-    to = "https://neutonfoo-itp404-a6-api.herokuapp.com/"
-    status = 200
+  from = "/api/*"
+  to = "https://neutonfoo-itp404-a6-api.herokuapp.com/api/:splat"
+  status = 200
 
 [[redirects]]
-    from = "/*"
-    to = "/index.html"
-    status = 200
+  from = "/*"
+  to = "/index.html"
+  status = 200
