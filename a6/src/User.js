@@ -44,7 +44,7 @@ export default function User({ user, isFollowing, followUser, unFollowUser }) {
             </div>
             {isFollowing && (
               <button
-                className="ui basic red attached button"
+                className="ui inverted red attached button"
                 onClick={() => unFollowUser(user.id)}
               >
                 Unfollow
@@ -52,7 +52,7 @@ export default function User({ user, isFollowing, followUser, unFollowUser }) {
             )}
             {!isFollowing && (
               <button
-                className="ui basic green attached button"
+                className="ui inverted green attached button"
                 onClick={() => followUser(user.id)}
               >
                 Follow
